@@ -46,8 +46,22 @@ for(let i =1; i<=10 ; i++){
  
 
 // break and continue
+// ///////// break
 
-for (let index = 1; index <= 20; index++) {
-    console.log{`Value of index is  ${index}`};
+// for (let index = 1; index <= 20; index++) {
+//     if(index == 5){
+//         console.log(`detected 5`);
+//         break
+//     }
+//     console.log(`Value of index is : ${index}`);
+    
+// }
+for (let index = 0; index < 20; index++) {
+    // const element = array[index];
+    if(index == 5){
+        console.log(`5 detected`);
+        continue
+    }
+    console.log(`value of index is : ${index}`)
     
 }
