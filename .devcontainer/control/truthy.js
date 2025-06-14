@@ -69,6 +69,7 @@ else{
     console.log("don't have user email");
 }
 
+
 // falsy values
 // false 0, -0, "",  null, undefined, NaN, BigInt 0n
 // truthy values
